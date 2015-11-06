@@ -3,25 +3,25 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.robovm</groupId>
-    <artifactId>robovm-dist-parent</artifactId>
-    <version>1.9.1-SNAPSHOT</version>
+    <groupId>org.flexovm</groupId>
+    <artifactId>flexovm-dist-parent</artifactId>
+    <version>1.8.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>robovm-dist-compiler</artifactId>
-  <name>RoboVM Distribution (compiler jars)</name>
+  <artifactId>flexovm-dist-compiler</artifactId>
+  <name>FlexoVM Distribution (compiler jars)</name>
   <packaging>jar</packaging>
 
   <properties>
-    <robovmdir>${basedir}/../../robovm</robovmdir>
-    <robovm.version>${project.version}</robovm.version>
+    <flexovmdir>${basedir}/../../flexovm</flexovmdir>
+    <flexovm.version>${project.version}</flexovm.version>
   </properties>
 
   <dependencies>
     <dependency>
-      <groupId>org.robovm</groupId>
-      <artifactId>robovm-compiler</artifactId>
-      <version>${robovm.version}</version>
+      <groupId>org.flexovm</groupId>
+      <artifactId>flexovm-compiler</artifactId>
+      <version>${flexovm.version}</version>
     </dependency>
   </dependencies>
   
@@ -30,9 +30,9 @@
       <id>commercial</id>
       <dependencies>
         <dependency>
-          <groupId>com.robovm</groupId>
-          <artifactId>robovm-proprietary</artifactId>
-          <version>${robovm.version}</version>
+          <groupId>com.flexovm</groupId>
+          <artifactId>flexovm-proprietary</artifactId>
+          <version>${flexovm.version}</version>
         </dependency>
       </dependencies>
   	</profile>

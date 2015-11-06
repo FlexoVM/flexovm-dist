@@ -3,45 +3,45 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.robovm</groupId>
-    <artifactId>robovm-parent</artifactId>
-    <version>1.9.1-SNAPSHOT</version>
+    <groupId>org.flexovm</groupId>
+    <artifactId>flexovm-parent</artifactId>
+    <version>1.8.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.robovm</groupId>
-  <artifactId>robovm-dist-parent</artifactId>
-  <name>RoboVM Distribution</name>
+  <groupId>org.flexovm</groupId>
+  <artifactId>flexovm-dist-parent</artifactId>
+  <name>FlexoVM Distribution</name>
   <packaging>pom</packaging>
-  <version>1.9.1-SNAPSHOT</version>
+  <version>1.8.0-SNAPSHOT</version>
 
   <properties>
     <licenseTxtURL>file://${basedir}/../LICENSE.txt</licenseTxtURL>
-    <robovm.version>${project.version}</robovm.version>
+    <flexovm.version>${project.version}</flexovm.version>
     <release.arguments />
   </properties>
 
-  <url>http://www.robovm.com</url>
+  <url>http://www.flexovm.org</url>
   <description>
-    The RoboVM compiler translates Java bytecode into native ARM or x86 code. Apps run directly on the CPU.
+    The FlexoVM compiler translates Java bytecode into native ARM or x86 code. Apps run directly on the CPU.
     No interpreter or virtual machine involved.
   </description>
   <inceptionYear>2012</inceptionYear>
 
   <organization>
-    <name>RoboVM AB</name>
-    <url>http://www.robovm.com</url>
+    <name>FlexoVM</name>
+    <url>http://www.flexovm.org</url>
   </organization>
 
   <scm>
-    <url>https://github.com/robovm/robovm-dist</url>
-    <connection>scm:git:git://github.com/robovm/robovm-dist.git</connection>
-    <developerConnection>scm:git:git@github.com:robovm/robovm-dist.git</developerConnection>
+    <url>https://github.com/flexovm/flexovm-dist</url>
+    <connection>scm:git:git://github.com/flexovm/flexovm-dist.git</connection>
+    <developerConnection>scm:git:git@github.com:flexovm/flexovm-dist.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/robovm/robovm/issues</url>
+    <url>https://github.com/flexovm/flexovm/issues</url>
   </issueManagement>
 
   <profiles>

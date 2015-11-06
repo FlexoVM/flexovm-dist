@@ -1,2 +1,2 @@
-robovm-dist
-===========
+flexovm-dist
+============

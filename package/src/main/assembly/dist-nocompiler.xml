@@ -8,7 +8,7 @@
     <format>tar.gz</format>
   </formats>
   <includeBaseDirectory>true</includeBaseDirectory>
-  <baseDirectory>robovm-${project.version}</baseDirectory>
+  <baseDirectory>flexovm-${project.version}</baseDirectory>
 
   <componentDescriptors>
     <componentDescriptor>src/main/assembly/dist-common.xml</componentDescriptor>
@@ -20,7 +20,7 @@
         <include>*:*:jar:*</include>
       </includes>
       <excludes>
-        <exclude>org.robovm:robovm-dist-compiler:jar:*</exclude>
+        <exclude>org.flexovm:flexovm-dist-compiler:jar:*</exclude>
       </excludes>
       <outputDirectory>lib</outputDirectory>
       <unpack>false</unpack>
